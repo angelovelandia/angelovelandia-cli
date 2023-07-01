@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+import t from"chalk";import o from"figlet";import e from"open";import i from"inquirer";const a=console.log,n=[{name:"url",type:"list",message:"You want to see... ❤❤❤",choices:["Github","Twitter","LinkedIn","Quit"]}],r={Github:"https://github.com/angelovelandia",Twitter:"https://twitter.com/avcodev",LinkedIn:"https://www.linkedin.com/in/angelo-velandia-703438237/"},l=async()=>{const t=await i.prompt(n);await(async t=>{if(t.url){let o=r[t.url];o&&e(o),o||process.exit(),l()}return!0})(t)};(async()=>{(async e=>{a(t.bold.cyan(o.textSync("@AVCODEV",{font:"ANSI Shadow",horizontalLayout:"default",verticalLayout:"default"})))})(),await l()})();
+//# sourceMappingURL=index.js.map

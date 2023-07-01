@@ -4,19 +4,18 @@
   "type": "module",
   "description": "",
   "exports": {
-    "require": "./dist/index.cjs",
-    "default": "./dist/index.modern.js"
+    "default": "./bin/index.js"
   },
-  "module": "./dist/index.module.js",
-  "unpkg": "./dist/index.umd.js",
+  "module": "./bin/index.module.js",
+  "unpkg": "./bin/index.umd.js",
   "source": "index.js",
-  "main": "./dist/index.modern.js",
+  "main": "./bin/index.js",
   "bin": {
-    "angelovelandia-cli": "./dist/index.modern.js"
+    "angelovelandia-cli": "./bin/index.js"
   },
   "scripts": {
     "dev": "node index.js",
-    "start": "node ./dist/index.modern.js",
+    "start": "node ./bin/index.js",
     "build": "microbundle index.js"
   },
   "keywords": [],
