@@ -17,7 +17,7 @@ const QUERYS = [
 
 const URLS_MAP = {
   Github: "https://github.com/angelovelandia",
-  Twitter: "https://twitter.com/avcodev",
+  Twitter: "https://x.com/avcodev_",
   LinkedIn: "https://www.linkedin.com/in/angelo-velandia-703438237/",
 };
 
