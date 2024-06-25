@@ -1,5 +1,5 @@
 # angelovelandia-cli
-Social networking or command-line portfolio
+Redes sociales en linea de comandos.
 
 ````
 npx angelovelandia-cli
