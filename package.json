@@ -27,5 +27,8 @@
     "inquirer": "^9.2.7",
     "open": "^9.1.0",
     "terminal-image": "^2.0.0"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.1"
   }
 }
